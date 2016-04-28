@@ -12,4 +12,26 @@
         tools:context=".MainActivity">
 
     <!-- TODO: write me! -->
+        <ImageView
+            android:src="@drawable/madlibs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mad_libs_description"
+            android:id="@+id/descriptionText" />
+
+        <Button
+            android:onClick="clickGetStarted"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text"
+            android:id="@+id/click_button"
+            android:layout_gravity="right" />
+
 </LinearLayout>

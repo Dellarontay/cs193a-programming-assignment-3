@@ -6,4 +6,7 @@
         You can\'t see the whole story until you fill in all missing words.
         Click below to get started ...
     </string>
+    <string name = "button_text"> Get Started! </string>
+    <string name = "fill_in_text"> Fill in the words to complete the story!</string>
+    <string name = "story_text">Your Mad Lib Story!</string>
 </resources>

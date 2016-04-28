@@ -15,9 +15,12 @@ public class ShowStoryActivity extends SimpleActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_story);
-
-        // TODO: finish me!
+        String story = getStringExtra("storyText");
+        TextView textview = (TextView) findViewById(R.id.Madlib_story);
+        textview.setText(story);
     }
 
-    // TODO: finish me!
+    public void onMakeClick(View view) {
+        startActivity(MainActivity.class);
+    }
 }

@@ -7,15 +7,16 @@ import java.util.*;
 import stanford.androidlib.*;
 
 public class MainActivity extends SimpleActivity {
-    // TODO: finish me!
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // TODO: finish me!
     }
 
-    // TODO: finish me!
+    public void clickGetStarted(View view) {
+        startActivity(FillInWordsActivity.class);
+    }
+
 }
